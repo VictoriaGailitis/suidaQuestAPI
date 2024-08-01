@@ -51,6 +51,10 @@ const questSchema = new mongoose.Schema({
         required: true,
         type: String
     },
+    questPoints: {
+        required: true,
+        type: Number
+    },
     tags: {
         required: false,
         type: [String]
