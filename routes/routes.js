@@ -21,7 +21,7 @@ router.post('/postQuest', async (req, res) => {
     const quest = new Quest({
         questName: req.body.questName,
         questDescription: req.body.questDescription,
-        questPoints: req.body.questPoints
+        questPoints: req.body.questPoints,
         tags: req.body.tags,
         screens: req.body.screens
     })
